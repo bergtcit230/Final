@@ -1,7 +1,7 @@
 package TeamProject;
 
 public class Food {
-
+// add note
     private String name = "food item";
     private double cost = 1;
     private int quantity = 1;

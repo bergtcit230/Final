@@ -31,17 +31,17 @@ public class Food {
     public int getQuantity(){ return quantity;}
 
     /** sets the name of Food item*/
-    public setName(name String){
+    public void setName(String name){
 
     }
 
     /** sets the cost of Food item*/
-    public setCost(cost double){
+    public void setCost(double cost){
 
     }
 
     /** sets the quantity of Food item*/
-    setQuantity(quantity int){
+    public void setQuantity(int quantity){
 
     }
 

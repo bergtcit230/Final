@@ -3,7 +3,7 @@ package TeamProject;
 public class Food {
 // add note
     private String name = "food item";
-    private double cost = 1;
+    private double cost = 0.00;
     private int quantity = 1;
     private java.util.Date dateCreated;
 
@@ -13,10 +13,9 @@ public class Food {
 
     /** Construct of a Food object with the specified name
      *  cost and quantity*/
-    public Food(String name, double cost, int quantity) {
+    public Food(String name, int quantity) {
         dateCreated = new java.util.Date();
         this.name = name;
-        this.cost = cost;
         this.quantity = quantity;
     }
     /** Return  name*/

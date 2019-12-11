@@ -1,5 +1,9 @@
 package TeamProject;
-
+/**
+ * Food
+ * Purpose” creates a Food object.
+ * constructs the name, cost, and quantity for a Food object.
+ */
 public class Food {
 // add note
     private String name = "food item";
@@ -18,17 +22,6 @@ public class Food {
         this.name = name;
         this.quantity = quantity;
     }
-    /** Return  name*/
-    public String getName(){
-        return name;
-    }
-
-    /** Return  cost*/
-    public double getCost(){return cost;}
-
-    /** Return  quantity*/
-    public int getQuantity(){ return quantity;}
-
     /** sets the name of Food item*/
     public void setName(String name){
 
@@ -43,6 +36,17 @@ public class Food {
     public void setQuantity(int quantity){
 
     }
+
+    /** Return  name*/
+    public String getName(){
+        return name;
+    }
+
+    /** Return  cost*/
+    public double getCost(){return cost;}
+
+    /** Return  quantity*/
+    public int getQuantity(){ return quantity;}
 
     /** Get dateCreated */
     public java.util.Date getDateCreated() {
